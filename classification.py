@@ -9,4 +9,7 @@ features = iris.data
 labels = iris.target
 
 clf = KNeighborsClassifier
-clf.fit(features,labels)
+clf.fit(features, labels)
+
+prediction = clf.predict([[1, 1, 2, 3]])
+print(prediction)
