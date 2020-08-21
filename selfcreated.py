@@ -3,13 +3,13 @@ import numpy as np
 from sklearn import datasets, linear_model
 from sklearn.metrics import mean_squared_error
 
-X = np.array([[1], [2], [3]])
+X = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9]])
 
 X_train = X
 X_test = X
 
-y_train = np.array([3,2,4])
-y_test = np.array([3,2,4])
+y_train = np.array([3,2,4,6,7,8,9,8,9])
+y_test = np.array([3,2,4,6,7,8,9,8,9])
 
 model = linear_model.LinearRegression()
 
