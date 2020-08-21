@@ -7,3 +7,6 @@ print(iris.data[0], iris.target[0])
 
 features = iris.data
 labels = iris.target
+
+clf = KNeighborsClassifier
+clf.fit(features,labels)
